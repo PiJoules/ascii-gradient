@@ -37,17 +37,14 @@ int main(void)
     /* Read side and colors. */
     int width, height;
     scanf("%d %d", &width, &height);
-    printf("%d %d\n", width, height);
     while (getchar() != '\n'); // kill remaining line
     char colors[256];
     fgets(colors, sizeof(colors), stdin);
-    printf("%s\n", colors);
     int ncolors = strlen(colors) - 1;
 
     /* Select sampler function. */
     char sampler_name[32];
     scanf("%31s", sampler_name);
-    printf("%s\n", sampler_name);
     char (*sampler)(char *, int, int, int, int *);
     sampler = dlsym(dlopen(NULL, RTLD_NOW), sampler_name);
 
