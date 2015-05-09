@@ -208,4 +208,4 @@ ooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 
 ## Javascript
-Just open `index.html` in a browser
+Just open [index.html](/javascript/index.html) in a browser
