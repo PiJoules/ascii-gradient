@@ -1,7 +1,7 @@
 # ASCII Gradient Generator in a Bunch of Languages
 https://www.reddit.com/r/dailyprogrammer/comments/3104wu/20150401_challenge_208_intermediate_ascii/
 
-Look at the ascii-gradient.c file for more or less proper documentation.
+Look at the `ascii-gradient.c` file for more or less proper documentation.
 
 ## Python
 ```sh
@@ -207,3 +207,5 @@ oooooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$$$$$$$$$$$$$$$$
 ooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 ```
 
+## Javascript
+Just open `index.html` in a browser
