@@ -1,4 +1,4 @@
-# ASCII Gradient Generator
+# ASCII Gradient Generator in a Bunch of Languages
 https://www.reddit.com/r/dailyprogrammer/comments/3104wu/20150401_challenge_208_intermediate_ascii/
 
 Look at the ascii-gradient.c file for more or less proper documentation.
@@ -179,5 +179,31 @@ ooooooooooooooooooooooooooooooooooooooOOOOOOOOOOOOOOOOOO8888
 ......,,,,,,,,,,,,,,,,,:::::::::::::;;;;;;;;;;;;;ooooooooooo
 ```
 
-
+## C++
+I have no shame in just copying and pasting the C code
+```sh
+$ cd ascii-gradient
+$ g++ c++/ascii-gradient.cpp
+$ cat samples/sample5.txt | ./a.out 
+.............,,,,,,,,,,,,:::::::::::::;;;;;;;;;;;;oooooooooo
+..........,,,,,,,,,,,,:::::::::::::;;;;;;;;;;;;ooooooooooooo
+.......,,,,,,,,,,,,:::::::::::::;;;;;;;;;;;;oooooooooooooOOO
+....,,,,,,,,,,,,:::::::::::::;;;;;;;;;;;;oooooooooooooOOOOOO
+.,,,,,,,,,,,,:::::::::::::;;;;;;;;;;;;oooooooooooooOOOOOOOOO
+,,,,,,,,,,:::::::::::::;;;;;;;;;;;;oooooooooooooOOOOOOOOOOOO
+,,,,,,,:::::::::::::;;;;;;;;;;;;oooooooooooooOOOOOOOOOOOO888
+,,,,:::::::::::::;;;;;;;;;;;;;ooooooooooooOOOOOOOOOOOO888888
+,:::::::::::::;;;;;;;;;;;;;ooooooooooooOOOOOOOOOOOO888888888
+:::::::::::;;;;;;;;;;;;oooooooooooooOOOOOOOOOOOO888888888888
+::::::::;;;;;;;;;;;;oooooooooooooOOOOOOOOOOOO8888888888888$$
+:::::;;;;;;;;;;;;oooooooooooooOOOOOOOOOOOO8888888888888$$$$$
+::;;;;;;;;;;;;oooooooooooooOOOOOOOOOOOO8888888888888$$$$$$$$
+;;;;;;;;;;;oooooooooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$
+;;;;;;;;oooooooooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$$$$
+;;;;;oooooooooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$$$$$$$
+;;oooooooooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$$$$$$$$$$
+ooooooooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$$$$$$$$$$$$$
+oooooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$$$$$$$$$$$$$$$$
+ooooooOOOOOOOOOOOO8888888888888$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+```
 
